@@ -24,19 +24,19 @@ All company names, properties, agents, images, and videos are **invented or used
 ---
 
 ## 📂 Project Structure
-sunshine-realty-static/
-├─ index.html
-├─ styles/
-│ └─ styles.css
-├─ scripts/
-│ └─ app.js
-├─ assets/
-│ └─images/
-│ └─videos/
-├─ legal/
-│ └─privacy.html
-│ └─terms.html
-└─ README.md
+sunshine-realty-static/                      .
+├─ index.html                    .
+├─ styles/                    .
+│ └─ styles.css                    .
+├─ scripts/                    .
+│ └─ app.js                    .
+├─ assets/                    .
+│ └─images/                    .
+│ └─videos/                    .
+├─ legal/                    .
+│ └─privacy.html                    .
+│ └─terms.html                    .
+└─ README.md                    .
 
 ## 🎨 Credits
 - Images: [Unsplash](https://unsplash.com) (free use).
