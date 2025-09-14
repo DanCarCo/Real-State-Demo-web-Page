@@ -1,13 +1,37 @@
-Sunshine Realty — Static HTML/CSS/JS Mockup (Multi-section, Responsive)
+# Sunshine Realty — Static Website (Demo)
 
-Todos los datos, imágenes y videos incluidos son FICTICIOS y se usan únicamente con fines de demostración. Las imágenes provienen de Unsplash (uso libre para demos) y los videos son links de muestra.
+**⚠️ Disclaimer:**
+This project is a **fictitious demo** for educational purposes.  
+All company names, properties, agents, images, and videos are **invented or used from free stock (Unsplash, Pexels, W3Schools demo)**.
 
-Estructura del proyecto
+---
 
+## 🌐 Demo Features
+- Responsive layout (mobile-first).
+- Landing page with auto-rotating image carousel.
+- About Us section with fictitious company info and realtor cards.
+- Properties section with sample properties:
+  - Thumbnails with price and address.
+  - Modal with full details, video, and photo gallery.
+  - Button to pre-fill contact form with property address.
+- Contact form with:
+  - Select between "I want to buy" / "I want to sell".
+  - Required fields: name, phone.
+  - Optional fields: address, comment.
+- Language toggle (English/Spanish).
+- Footer with disclaimer, terms/conditions placeholder, and social links.
+
+---
+
+## 📂 Project Structure
 sunshine-realty-static/
 ├─ index.html
-├─ styles/styles.css
-├─ scripts/app.js
-├─ assets/ (vacío - opcional para íconos locales)
+├─ styles/
+│ └─ styles.css
+├─ scripts/
+│ └─ app.js
 └─ README.md
 
+## 🎨 Credits
+- Images: [Unsplash](https://unsplash.com) (free use).
+- Videos: [W3Schools sample](https://www.w3schools.com/html/mov_bbb.mp4).
