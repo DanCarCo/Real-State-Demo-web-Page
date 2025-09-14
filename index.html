@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sunshine Realty — Demo</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="description" content="Demo real estate site - Sunshine Realty (fictitious)">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">☀️</div>
+        <div>
+          <div class="title">Sunshine Realty</div>
+          <div class="subtitle">Florida — Demo</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about" data-i18n="about">About Us</a>
+        <a href="#properties" data-i18n="properties">Properties</a>
+        <a href="#contact" data-i18n="contact">Contact Us</a>
+        <button id="langToggle" class="btn small">ES</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / Carousel -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="carousel" id="carousel">
+          <img src="https://images.unsplash.com/photo-1505691723518-36a6a9f1a0b5?q=80&w=1600&auto=format&fit=crop" alt="slide" class="carousel-img">
+          <div class="carousel-caption">
+            <h1 data-i18n="headline">Find your dream home in Florida</h1>
+            <p class="muted" data-i18n="subheadline">FICTITIOUS DEMO — Properties and agents are sample content only.</p>
+            <a href="#properties" class="btn primary" data-i18n="explore">Explore Properties</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 data-i18n="aboutTitle">About Sunshine Realty</h2>
+          <p>FICTITIOUS DEMO: Sunshine Realty is a mock real estate company showcasing a static website template. We specialize in residential properties across Florida.</p>
+          <p><strong>Mission:</strong> Help customers find their perfect home — demo content only.</p>
+        </div>
+        <div class="about-media">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop" alt="office" class="rounded">
+        </div>
+      </div>
+
+      <div class="container">
+        <h3 data-i18n="ourRealtors">Our Realtors</h3>
+        <div class="realtor-grid">
+          <div class="card realtor">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Ana">
+            <div class="card-body">
+              <div class="name">Ana Perez</div>
+              <div class="meta">Beachfront Homes</div>
+              <div class="rating">Rating: 4.7 ⭐</div>
+            </div>
+          </div>
+
+          <div class="card realtor">
+            <img src="https://images.unsplash.com/photo-1545996124-1b606b5bbf3b?q=80&w=800&auto=format&fit=crop" alt="John">
+            <div class="card-body">
+              <div class="name">John Smith</div>
+              <div class="meta">Urban Condos</div>
+              <div class="rating">Rating: 4.6 ⭐</div>
+            </div>
+          </div>
+
+          <div class="card realtor">
+            <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop" alt="Miguel">
+            <div class="card-body">
+              <div class="name">Miguel Torres</div>
+              <div class="meta">Starter Homes</div>
+              <div class="rating">Rating: 3.5 ⭐</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPERTIES -->
+    <section id="properties" class="section">
+      <div class="container">
+        <h2 data-i18n="properties">Properties Available</h2>
+        <div class="grid properties-grid" id="propertiesGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 data-i18n="contact">Contact Us</h2>
+        <form id="contactForm" class="form">
+          <label>
+            <span data-i18n="selection">Select</span>
+            <select id="actionSelect">
+              <option value="buy" data-i18n="buy">I want to buy</option>
+              <option value="sell" data-i18n="sell">I want to sell</option>
+            </select>
+          </label>
+
+          <label>
+            <span data-i18n="name">Full name *</span>
+            <input id="fullName" type="text" required>
+          </label>
+
+          <label>
+            <span data-i18n="phone">Phone *</span>
+            <input id="phone" type="tel" required>
+          </label>
+
+          <label>
+            <span data-i18n="address">Address</span>
+            <input id="addressInput" type="text" placeholder="(Optional)">
+          </label>
+
+          <label>
+            <span data-i18n="comment">Comment</span>
+            <textarea id="commentInput" rows="4"></textarea>
+          </label>
+
+          <div>
+            <button type="submit" class="btn primary" data-i18n="send">Send Message</button>
+          </div>
+
+          <div id="formMsg" class="muted small" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Sunshine Realty — Demo</strong>
+        <div class="muted small" data-i18n="disclaimer">All information on this website is fictitious and for demo purposes only.</div>
+      </div>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">X</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Sunshine Realty — Demo</div>
+  </footer>
+
+  <!-- Property Modal (hidden) -->
+  <div id="propModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
