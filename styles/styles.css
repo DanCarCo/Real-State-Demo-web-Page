@@ -68,11 +68,51 @@ body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica
 
 .copyright{text-align:center;padding:0.5rem 0;color:#6b7280}
 
-/* Modal */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center;padding:1rem}
 .modal[aria-hidden="false"]{display:flex}
 .modal-content {background:#fff; border-radius:10px; width:100%; max-width:900px; max-height:90vh; position:relative;padding:1rem;overflow-y:auto;}
 .modal-close{position:absolute;right:0.5rem;top:0.5rem;border:none;background:transparent;font-size:1.2rem;cursor:pointer}
+
+.contact-section {background: #f9fafb;padding: 3rem 1rem;border-top: 2px solid #e5e7eb;}
+.contact-section h2 {text-align: center;margin-bottom: 2rem;font-size: 1.8rem;color: var(--navy);}
+.form {background: #fff;padding: 2rem;border-radius: 12px;box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);display: grid;gap: 1.2rem;max-width: 600px;margin: 0 auto;}
+.form label {display: flex;flex-direction: column;font-weight: 600;color: var(--navy);font-size: 0.95rem;}
+.form input,
+.form select,
+.form textarea{margin-top: 0.5rem;padding: 0.8rem;border-radius: 8px;border: 1px solid #d1d5db;font-size: 1rem;transition: border-color 0.2s, box-shadow 0.2s;}
+.form input:focus,
+.form select:focus,
+.form textarea:focus {outline: none;border-color: var(--gold);box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.3);}
+.form textarea {resize: vertical;min-height: 120px;}
+.form button {
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 700;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+.form button:hover {
+  background: #facc15;
+  transform: scale(1.02);
+}
+#formMsg {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+  .form {
+    padding: 1.5rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.4rem;
+  }
+}
 
 @media (max-width:900px){
   .about-grid{grid-template-columns:1fr}
