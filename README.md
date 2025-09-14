@@ -30,6 +30,12 @@ sunshine-realty-static/
 │ └─ styles.css
 ├─ scripts/
 │ └─ app.js
+├─ assets/
+│ └─images/
+│ └─videos/
+├─ legal/
+│ └─privacy.html
+│ └─terms.html
 └─ README.md
 
 ## 🎨 Credits
