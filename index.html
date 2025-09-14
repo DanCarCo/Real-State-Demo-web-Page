@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sunshine Realty — Demo</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-…(hash)…=" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="description" content="Demo real estate site - Sunshine Realty (fictitious)">
 </head>
 <body>
@@ -32,7 +33,7 @@
     <section class="hero" id="home">
       <div class="container">
         <div class="carousel" id="carousel">
-          <img src="https://images.unsplash.com/photo-1505691723518-36a6a9f1a0b5?q=80&w=1600&auto=format&fit=crop" alt="slide" class="carousel-img">
+          <img src="assets/images/photo-1570129477492-45c003edd2be.avif" alt="slide" class="carousel-img">
           <div class="carousel-caption">
             <h1 data-i18n="headline">Find your dream home in Florida</h1>
             <p class="muted" data-i18n="subheadline">FICTITIOUS DEMO — Properties and agents are sample content only.</p>
@@ -51,7 +52,7 @@
           <p><strong>Mission:</strong> Help customers find their perfect home — demo content only.</p>
         </div>
         <div class="about-media">
-          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop" alt="office" class="rounded">
+          <img src="assets/images/photo-1542314831-068cd1dbfeeb.avif" alt="office" class="rounded">
         </div>
       </div>
 
@@ -59,7 +60,7 @@
         <h3 data-i18n="ourRealtors">Our Realtors</h3>
         <div class="realtor-grid">
           <div class="card realtor">
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Ana">
+            <img src="assets/images/Ana.avif" alt="Ana">
             <div class="card-body">
               <div class="name">Ana Perez</div>
               <div class="meta">Beachfront Homes</div>
@@ -68,7 +69,7 @@
           </div>
 
           <div class="card realtor">
-            <img src="https://images.unsplash.com/photo-1545996124-1b606b5bbf3b?q=80&w=800&auto=format&fit=crop" alt="John">
+            <img src="assets/images/photo-1647580427155-0483906cb9de.jpg" alt="John">
             <div class="card-body">
               <div class="name">John Smith</div>
               <div class="meta">Urban Condos</div>
@@ -77,7 +78,7 @@
           </div>
 
           <div class="card realtor">
-            <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop" alt="Miguel">
+            <img src="assets/images/Miguel.avif" alt="Miguel">
             <div class="card-body">
               <div class="name">Miguel Torres</div>
               <div class="meta">Starter Homes</div>
@@ -146,19 +147,22 @@
         <strong>Sunshine Realty — Demo</strong>
         <div class="muted small" data-i18n="disclaimer">All information on this website is fictitious and for demo purposes only.</div>
       </div>
-      <div class="socials">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">X</a>
-        <a href="#">WhatsApp</a>
-        <a href="#">TikTok</a>
+    <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
     </div>
-    <p>
-        <a href="legal/terms.html">Terms & Conditions</a> |
-        <a href="legal/privacy.html">Privacy Policy</a>
-    </p>
-    <p>All content is fictitious. Demo only.</p>
-    </footer>
+    <div class="copyright">
+        <p>
+            <a href="legal/terms.html">Terms & Conditions</a> |
+            <a href="legal/privacy.html">Privacy Policy</a>
+        </p>
+      <p>All content is fictitious. Demo only.</p>
+    </div>
+  </footer>
 
   <!-- Property Modal (hidden) -->
   <div id="propModal" class="modal" aria-hidden="true">

@@ -34,4 +34,4 @@ sunshine-realty-static/
 
 ## 🎨 Credits
 - Images: [Unsplash](https://unsplash.com) (free use).
-- Videos: [W3Schools sample](https://www.w3schools.com/html/mov_bbb.mp4).
+- Videos: [Pexels](https://www.pexels.com/).
